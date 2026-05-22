@@ -1,6 +1,8 @@
 package com.example.numberstorage
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,6 +14,9 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        //Declaring variables
+        val edtNum = findViewById<EditText>(R.id.edtNum)
+        val edtAdd = findViewById<Button>(R.id.edtAdd)
         
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
