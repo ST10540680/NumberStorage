@@ -19,9 +19,25 @@
 
     <Button
         android:id="@+id/edtAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
         android:text="Add"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <Button
+        android:id="@+id/edtAvg"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:text="Average"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/txtAvg"
+        android:layout_width="148dp"
+        android:layout_height="41dp"
+        android:text="Average"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="385dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

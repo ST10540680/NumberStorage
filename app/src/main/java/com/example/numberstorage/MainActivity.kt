@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
         //Declaring variables
         val edtNum = findViewById<EditText>(R.id.edtNum)
         val edtAdd = findViewById<Button>(R.id.edtAdd)
-        
+
+        //
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
